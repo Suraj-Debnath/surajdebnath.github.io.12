@@ -46,7 +46,7 @@ body{
 .search{
     position: absolute;
     left: 30%;
-    width: 540px;
+    width: 500px;
     height: 35px;
     border: 0px solid #ddd;
     border-radius: 10px;
@@ -61,7 +61,7 @@ body{
 .logo{
     display: inline-block;
     position: relative;
-    left: 60.6%;
+    left: 59%;
     display: flex;
     justify-content: center;
     cursor: pointer;
