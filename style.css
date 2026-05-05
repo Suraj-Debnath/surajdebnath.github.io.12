@@ -287,7 +287,7 @@ body{
 
 
 
-@media(min-width:375) and (max-width:390px){
+@media(min-width:375px) and (max-width:390px){
     .search{
         left: 102px;
     }
