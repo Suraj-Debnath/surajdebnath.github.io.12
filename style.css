@@ -167,6 +167,9 @@ body{
     height: 380px;
     width: 350px;
 }
+#box-4{
+    height:355px;
+}
 .box h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
