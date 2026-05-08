@@ -278,9 +278,14 @@ body{
         margin-top: 10px;
         flex-wrap: wrap;
         gap: 20px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        padding: 20px;
     }
     .box{
         border: 2px solid black;
+        min-width: 350px;
+        flex-shrink: 0;
     }
 }
 
