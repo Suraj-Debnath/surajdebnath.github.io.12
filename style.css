@@ -275,17 +275,58 @@ body{
         font-size: 15px;
     }
     .picture-1{
-        margin-top: 10px;
-        flex-wrap: wrap;
-        gap: 20px;
-        overflow-x: auto;
-        scroll-behavior: smooth;
+        justify-content: left;
+        margin-top: 10px; 
+        gap: 10px;
+        overflow-x: auto;  
         padding: 20px;
+    }
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
     }
     .box{
         border: 2px solid black;
-        min-width: 350px;
+        width: 250px;
+        height: 300px;
         flex-shrink: 0;
+    }
+    .img-1{
+        width: 100px;
+        height: 110px;
+    }
+    .img-1 p{
+        font-size: 12px;
+    }
+    .box h2{
+        font-size: large;
+    }
+    .img-1 img{
+        height: 65%;
+    }
+    #img-3{
+    margin-top: 0px;
+    }
+    #img-4{
+        margin-top: 0px;
+    }
+    #img-7{
+        margin-top: 0px;
+    }
+    #img-8{
+        margin-top: 0px;
+    }
+    #img-11{
+        margin-top: 0px;
+    }
+    #img-12{
+        margin-top: 0px;
+    }
+    #img-15{
+        margin-top: 5px;
+    }
+    #img-16{
+        margin-top: 5px;
     }
 }
 
