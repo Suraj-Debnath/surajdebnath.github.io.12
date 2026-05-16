@@ -339,15 +339,17 @@ body{
         margin-top: 5px;
     }
     .picture-2{
+        height: 200px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-top: 20px;
         margin-left: 20px;
         justify-content: left;
         overflow-y: scroll;
+        scroll-behavior: smooth;
     }
     .box-1-2{
-        border: 2px solid black;
+        border: 2px solid #ddd;
         border-radius: 10px;
         flex-shrink: 0;
         object-fit: cover;
