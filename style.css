@@ -339,10 +339,12 @@ body{
         margin-top: 5px;
     }
     .picture-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         margin-top: 20px;
         margin-left: 20px;
         justify-content: left;
-        overflow-x: scroll;
+        overflow-y: scroll;
     }
     .box-1-2{
         border: 2px solid black;
