@@ -135,28 +135,23 @@ body{
     background-color: aliceblue;
     margin-right: 10px;
 }
-
-
 .navbar-2{
     height: 28px;
     background: #000;
 }
-
-
-
-
 .main{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background: url(banner.jpg);
     background-position: center;
     background-size: cover;
     border-top: 1px solid transparent;
+    overflow-y: auto;
 }
 .picture-1{
     margin-top: 22%;
     display: flex;
-    gap: 30px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
 }
@@ -219,7 +214,22 @@ body{
 #img-16{
     margin-top: 54px;
 }
-
+.picture-2{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.box-1-2{
+    height: 190px;
+    width: 150px;
+}
+.box-1-2 img{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
 
 
 
@@ -327,6 +337,18 @@ body{
     }
     #img-16{
         margin-top: 5px;
+    }
+    .picture-2{
+        margin-top: 20px;
+        margin-left: 20px;
+        justify-content: left;
+        overflow-x: scroll;
+    }
+    .box-1-2{
+        border: 2px solid black;
+        border-radius: 10px;
+        flex-shrink: 0;
+        object-fit: cover;
     }
 }
 
