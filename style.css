@@ -308,7 +308,7 @@ body{
 
 @media(max-width:600px){
     .main{
-        padding-bottom: 200px;
+        padding-bottom: 120px;
         background: linear-gradient(to top,rgba(227,230,230,0) 60%,to bottom #e3e6e6 100%);
     }
     .banner{
