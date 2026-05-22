@@ -352,8 +352,6 @@ body{
     }
     .picture-2{
         height: 200px;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
         margin-top: 20px;
         margin-left: 20px;
         justify-content: left;
